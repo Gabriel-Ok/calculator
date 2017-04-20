@@ -6,25 +6,33 @@
       <link rel="stylesheet" href="css/styles.css">
       <title>MY CALCULATOR</title>
    </head>
-   <body><div class="sm-col-3">
-      <form name="calc">
-         <input type="button" name="" value="9" onclick="9">
-         <input type="button" name="" value="8" onclick="8">
-         <input type="button" name="" value="7" onclick="7">
-         <input type="button" name="" value="6" onclick="6">
+   <body <div  id="calc-container" >
+      <form name="calc" >
+         <input type="text" name="answer" value="" id="outPut">
+         <br>
+         <input id=button type="button" name="" value="9" onclick="calc.answer.value +=9">
+         <input id=button type="button" name="" value="8" onclick="calc.answer.value +=8">
+         <input id=button type="button" name="" value="7" onclick="calc.answer.value +=7">
+         <input id=button type="button" name="" value="+" onclick="calc.answer.value +=+">
+<br>
+         <input id=button type="button" name="" value="6" onclick="calc.answer.value +=6">
+         <input id=button type="button" name="" value="5" onclick="calc.answer.value +=5">
+         <input id=button type="button" name="" value="4" onclick="calc.answer.value +=4">
+         <input id=button type="button" name="" value="-" onclick="calc.answer.value +=-">
+         <br>
+         <input id=button type="button" name="" value="3" onclick="calc.answer.value +=3">
+         <input id=button type="button" name="" value="2" onclick="calc.answer.value +=2">
+         <input id=button type="button" name="" value="1" onclick="calc.answer.value +=1">
 
-         <input type="button" name="" value="5" onclick="5">
-         <input type="button" name="" value="4" onclick="4">
-         <input type="button" name="" value="3" onclick="3">
-         <input type="button" name="" value="2" onclick="2">
-         <input type="button" name="" value="1" onclick="1">
-         <input type="button" name="" value="0" onclick="0">
-         <input type="button" name="" value="+" onclick="+">
+         <input id=button type="button" name="" value="/" onclick="calc.answer.value +=/">
+         <br>
+         <input id=button type="button" name="" value="*" onclick="calc.answer.value +=*">
+         <input id=button type="button" name="" value="%" onclick="calc.answer.value +=%">
+         <input id=button type="button" name="" value="=" onclick="calc.answer.value +==">
+         <input id=button type="button" name="" value="c" onclick="calc.answer.value">
+         <script>
 
-         <input type="button" name="" value="-" onclick="-">
-         <input type="button" name="" value="/" onclick="/">
-         <input type="button" name="" value="*" onclick="*">
-         <input type="button" name="" value="=" onclick="=">
+         </script>
       </form>
    </div>
 
