@@ -1,4 +1,37 @@
 body
 {
-   background-color: black;
+   background-image: url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjW8fugxLPTAhWF0hoKHX53BckQjRwIBw&url=http%3A%2F%2Fwww.earthporm.com%2F16-magnificent-trees-world%2F&psig=AFQjCNFLzMnG3jlBnsFV2-eUzJrt_BZ9lg&ust=1492794829374875");
+
+   background-color: purple;
+}
+#calc-container
+{
+   border: 30px;
+   padding: 10px;
+   font-size: 500%;
+   margin-left: auto;
+   margin-right: auto;
+   border-left: 2em;
+   border-right: 2em;
+   padding-top: 50px;
+   padding-left: 550px;
+}
+#button
+{
+   font-size: 50%;
+   color: black;
+}
+hover
+{
+   display: none;
+}
+#button hover
+{
+   display: block;
+   color: red;
+}
+
+#outPut
+{
+   color: blue;
 }
