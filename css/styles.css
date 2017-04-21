@@ -6,8 +6,8 @@ body
 }
 #calc-container
 {
-   border: 30px;
-   padding: 10px;
+   /*border: 30px;*/
+   /*padding: 10px;*/
    font-size: 500%;
    margin-left: auto;
    margin-right: auto;
@@ -16,22 +16,83 @@ body
    padding-top: 50px;
    padding-left: 550px;
 }
+h1
+{
+
+   font-size: 500%;
+   top: 0px;
+   text-align: center;
+   /*padding: 0;*/
+   /*padding-left: 200px;*/
+}
+.c
+{
+   color: red;
+}
+.a
+{
+   color: yellow;
+}
+.l
+{
+   color: green;
+}
+.u
+{
+   color: white;
+}
+.t
+{
+   color: blue;
+}
+.o
+{
+   color: brown;
+}
+.r
+{
+   color: pink;
+}
+
+
+
+
+
+
+
 #button
 {
    font-size: 50%;
    color: black;
+   width: 50px;
+   height: 60px;
+   margin: 0;
+   padding: 0;
 }
 hover
 {
    display: none;
 }
-#button hover
+#button:hover
 {
-   display: block;
    color: red;
 }
 
 #outPut
 {
-   color: blue;
+   color: white;
+   width: 255px;
+   background-color: black;
+   height: 30px;
+}
+#button0
+{
+   font-size: 50%;
+   color: black;
+   height: 60px;
+   width: 190px;
+}
+#button0:hover
+{
+   color: red;
 }
