@@ -13,7 +13,7 @@ body
    margin-right: auto;
    border-left: 2em;
    border-right: 2em;
-   padding-top: 50px;
+   padding-top: 0px;
    padding-left: 550px;
 }
 h1
@@ -83,7 +83,7 @@ hover
    color: white;
    width: 255px;
    background-color: black;
-   height: 30px;
+   height: 40px;
 }
 #button0
 {
